@@ -205,3 +205,25 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Playwright automation generated files
+
+# Test reports
+reports/
+*.html
+
+# Logs
+logs/
+*.log
+
+# Screenshots (if you capture failures)
+screenshots/
+
+# Playwright cache
+playwright/.cache/
+
+# Pytest cache
+.pytest_cache/
+
+# Environment files
+.env

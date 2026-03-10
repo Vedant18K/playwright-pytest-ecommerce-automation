@@ -1,0 +1,15 @@
+{
+  "name": "TestUser",
+  "email": "testuser123@test.com",
+  "password": "Password123",
+  "first_name": "Test",
+  "last_name": "User",
+  "company": "TestCompany",
+  "address": "123 Test Street",
+  "address2": "Suite 1",
+  "country": "India",
+  "state": "Maharashtra",
+  "city": "Pune",
+  "zipcode": "411001",
+  "mobile": "9999999999"
+}
