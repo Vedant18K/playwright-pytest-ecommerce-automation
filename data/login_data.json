@@ -1,0 +1,10 @@
+{
+    "valid_credentials": {
+        "email": "user1773308485211@user.com",
+        "password": "Sam@5211ple"
+    },
+    "invalid_credentials":{
+        "email":"user1773302490311@user.com",
+        "password":"Sample@123"
+    }
+}

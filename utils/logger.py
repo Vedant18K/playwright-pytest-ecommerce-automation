@@ -7,7 +7,7 @@ logging.basicConfig(
     filename="logs/test.log",
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
-    force=True
+    force=True,
 )
 
 logger = logging.getLogger(__name__)
