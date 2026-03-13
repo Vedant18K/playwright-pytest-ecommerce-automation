@@ -13,5 +13,8 @@
         "subject":"Subject here ",
         "message": " Message Here",
         "file_path": "D:/Vedant/Python/playwright-pytest-ecommerce-automation/data/sample_upload_test.pdf"
+    },
+    "search_product":{
+        "product_name":"Blue Top"
     }
 }
