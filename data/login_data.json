@@ -6,5 +6,12 @@
     "invalid_credentials":{
         "email":"user1773302490311@user.com",
         "password":"Sample@123"
+    },
+    "contact_us_form":{
+        "name":"Test User",
+        "email":"woneyok463@devlug.com",
+        "subject":"Subject here ",
+        "message": " Message Here",
+        "file_path": "D:/Vedant/Python/playwright-pytest-ecommerce-automation/data/sample_upload_test.pdf"
     }
 }
