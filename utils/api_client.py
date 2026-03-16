@@ -18,10 +18,10 @@ class APIClient:
         return self.context.get(endpoint, params=params)
 
     def post(self, endpoint, payload=None):
-        return self.context.post(endpoint, json=payload)
+        return self.context.post(endpoint, data=payload)
 
     def put(self, endpoint, payload=None):
-        return self.context.put(endpoint, json=payload)
+        return self.context.put(endpoint, data=payload)
 
     def delete(self, endpoint):
         return self.context.delete(endpoint)
