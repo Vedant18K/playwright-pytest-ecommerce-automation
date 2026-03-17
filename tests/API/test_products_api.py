@@ -17,7 +17,6 @@ def test_get_all_product_list(api_client):
 
 def test_search_product(api_client):
     product_api = ProductsAPI(api_client)
-
     response = product_api.search_products("Top")
     # assert response.status == 405
 

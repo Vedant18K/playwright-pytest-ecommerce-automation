@@ -227,3 +227,5 @@ playwright/.cache/
 
 # Environment files
 .env
+allure-results/
+allure-report/
