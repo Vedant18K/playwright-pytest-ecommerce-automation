@@ -1,8 +1,12 @@
 from pages.contact_us_page import contactUsFrom
 from utils.logger import logger
 from utils.data_reader import load_test_data
+import pytest
+import allure
 
-
+@pytest.mark.flaky(reruns=2)
+@allure.tag("flaky")
+@allure.title("Contact Us Form Submission")
 def test_contact_us_form(page):
     data = load_test_data("data/login_data.json")
     contact = contactUsFrom(page)

@@ -6,7 +6,7 @@ class contactUsFrom():
     def __init__(self,page:Page):
         self.page = page
         self.contact_us_page = page.locator("a[href='/contact_us']")
-        self.name_input = page.locator("input[placeholder='Name']")
+        self.name_input = page.locator("input[placeholder='Nameee']")
         self.email_input = page.locator("//input[@placeholder='Email']")
         self.subject_input = page.locator("input[placeholder='Subject']")
         self.message_input = page.locator("//textarea[@id='message']")
