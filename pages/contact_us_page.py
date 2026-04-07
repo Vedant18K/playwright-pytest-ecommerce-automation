@@ -24,7 +24,5 @@ class contactUsFrom():
         self.message_input.fill(message)
         # File Upload
         expect(self.upload_input).to_be_visible
-        self.upload_input.set_input_files(file_path)
-        
+        self.upload_input.set_input_files(file_path) 
         self.submit_btn.click()
-              
